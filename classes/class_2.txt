@@ -1,0 +1,12 @@
+Seating
+Attributes:
+Number_of_tables: integer
+Has_reservation: boolean
+Seat_type: string
+Customer_parties: array
+
+Methods:
+combine_tables: Number_of_tables -1
+confirm_reservation: modifies Has_reservation to true
+request_booth: modifies Seat_type
+Check_out: modifies Customer_parties
