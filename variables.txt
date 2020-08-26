@@ -1,0 +1,16 @@
+food = "banana"
+is_delicious = true
+food = "pizza"
+
+num2 = 2
+num7 = 7
+quotient = num7/num2
+liam_cusack@DESKTOP-SV7P6QN ~/mod_0_skills $ songs = ["bohemian rhapsody", "Don't stop me now"]
+liam_cusack@DESKTOP-SV7P6QN ~/mod_0_skills $ songs.shift
+liam_cusack@DESKTOP-SV7P6QN ~/mod_0_skills $ bohemian rhapsody
+liam_cusack@DESKTOP-SV7P6QN ~/mod_0_skills $ songs
+liam_cusack@DESKTOP-SV7P6QN ~/mod_0_skills $ ["Don't stop me now"]
+
+liam_cusack@DESKTOP-SV7P6QN ~/mod_0_skills $ food = "pizza"
+liam_cusack@DESKTOP-SV7P6QN ~/mod_0_skills $ print food.length
+liam_cusack@DESKTOP-SV7P6QN ~/mod_0_skills $ 5
