@@ -1,0 +1,13 @@
+Pepsi Machine
+Attributes:
+Flavor: "Pepsi"
+Dispense_ice:false
+Number_of_flavors:4
+Amount_of_syrup_remaining: 99.9
+Amount_of_syrup_remaining_total ["99.9", "99.9", "99.9", "99.9"]
+
+Methods:
+Change_flavor: "Dr. Pepper"
+press_ice_button: Dispense_ice = true
+Out_of_order: Number_of_flavors = 3
+dispense_soda: Amount_of_syrup_remaining = 99.2
