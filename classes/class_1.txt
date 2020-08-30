@@ -1,14 +1,14 @@
 Soda Machine
 Attributes:
-Flavor: "string"
-Dispense Ice: Boolean
-Number_of_flavors: integer
-Amount_of_syrup_remaining: float
-Amount_of_syrup_remaining_total: Array
+flavor: "string"
+dispense_ice: Boolean
+number_of_flavors: integer
+amount_of_syrup_remaining: float
+amount_of_syrup_remaining_total: Array
 
 Methods:
 change_flavor: modifies Flavor
-press_ice_button: changes Dispense_ice to true
-Out_of_order: -1 to Number_of_flavors
-dispense_soda: modifies Amount_of_syrup_remaining
+press_ice_button: changes dispense_ice to true
+out_of_order: -1 to number_of_flavors
+dispense_soda: modifies amount_of_syrup_remaining
 

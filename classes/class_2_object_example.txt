@@ -1,12 +1,12 @@
 Outdoor Seating
 Attributes:
-Number_of_tables = 5
-Has_reservation = false
+number_of_tables = 5
+open_tables = false
 seat_type: "patio"
-Customer_parties = ["Jones", "Jenkins", "Smith", "Adams"]
+customer_parties = ["Jones", "Jenkins", "Smith", "Adams"]
 
 Methods:
-combine tables: Number_of_tables = 4
-confirm_reservation: Has_reservation = true
+combine tables: number_of_tables = 4
+set_table: open_tables = true
 request_booth: seat_type = "outdoor booth"
-Check_out: Customer_parties = ["Jones", "Jenkins", "Smith"]
+check_out: customer_parties = ["Jones", "Jenkins", "Smith"]
